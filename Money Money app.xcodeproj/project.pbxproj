@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A592E45D2B5A79260022F75C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A592E45C2B5A79260022F75C /* AppDelegate.swift */; };
+		A592E45F2B5A79260022F75C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A592E45E2B5A79260022F75C /* SceneDelegate.swift */; };
+		A592E4612B5A79260022F75C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A592E4602B5A79260022F75C /* ViewController.swift */; };
+		A592E4642B5A79260022F75C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A592E4622B5A79260022F75C /* Main.storyboard */; };
+		A592E4662B5A79280022F75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A592E4652B5A79280022F75C /* Assets.xcassets */; };
+		A592E4692B5A79280022F75C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A592E4672B5A79280022F75C /* LaunchScreen.storyboard */; };
+		A592E4742B5A79280022F75C /* Money_Money_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A592E4732B5A79280022F75C /* Money_Money_appTests.swift */; };
+		A592E47E2B5A79280022F75C /* Money_Money_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A592E47D2B5A79280022F75C /* Money_Money_appUITests.swift */; };
+		A592E4802B5A79280022F75C /* Money_Money_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A592E47F2B5A79280022F75C /* Money_Money_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A592E4702B5A79280022F75C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A592E4512B5A79260022F75C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A592E4582B5A79260022F75C;
+			remoteInfo = "Money Money app";
+		};
+		A592E47A2B5A79280022F75C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A592E4512B5A79260022F75C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A592E4582B5A79260022F75C;
+			remoteInfo = "Money Money app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A592E4592B5A79260022F75C /* Money Money app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Money Money app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A592E45C2B5A79260022F75C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A592E45E2B5A79260022F75C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A592E4602B5A79260022F75C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A592E4632B5A79260022F75C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A592E4652B5A79280022F75C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A592E4682B5A79280022F75C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A592E46A2B5A79280022F75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A592E46F2B5A79280022F75C /* Money Money appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Money Money appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A592E4732B5A79280022F75C /* Money_Money_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money_Money_appTests.swift; sourceTree = "<group>"; };
+		A592E4792B5A79280022F75C /* Money Money appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Money Money appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A592E47D2B5A79280022F75C /* Money_Money_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money_Money_appUITests.swift; sourceTree = "<group>"; };
+		A592E47F2B5A79280022F75C /* Money_Money_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money_Money_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A592E4562B5A79260022F75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A592E46C2B5A79280022F75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A592E4762B5A79280022F75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A592E4502B5A79260022F75C = {
+			isa = PBXGroup;
+			children = (
+				A592E45B2B5A79260022F75C /* Money Money app */,
+				A592E4722B5A79280022F75C /* Money Money appTests */,
+				A592E47C2B5A79280022F75C /* Money Money appUITests */,
+				A592E45A2B5A79260022F75C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A592E45A2B5A79260022F75C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A592E4592B5A79260022F75C /* Money Money app.app */,
+				A592E46F2B5A79280022F75C /* Money Money appTests.xctest */,
+				A592E4792B5A79280022F75C /* Money Money appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A592E45B2B5A79260022F75C /* Money Money app */ = {
+			isa = PBXGroup;
+			children = (
+				A592E45C2B5A79260022F75C /* AppDelegate.swift */,
+				A592E45E2B5A79260022F75C /* SceneDelegate.swift */,
+				A592E4602B5A79260022F75C /* ViewController.swift */,
+				A592E4622B5A79260022F75C /* Main.storyboard */,
+				A592E4652B5A79280022F75C /* Assets.xcassets */,
+				A592E4672B5A79280022F75C /* LaunchScreen.storyboard */,
+				A592E46A2B5A79280022F75C /* Info.plist */,
+			);
+			path = "Money Money app";
+			sourceTree = "<group>";
+		};
+		A592E4722B5A79280022F75C /* Money Money appTests */ = {
+			isa = PBXGroup;
+			children = (
+				A592E4732B5A79280022F75C /* Money_Money_appTests.swift */,
+			);
+			path = "Money Money appTests";
+			sourceTree = "<group>";
+		};
+		A592E47C2B5A79280022F75C /* Money Money appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A592E47D2B5A79280022F75C /* Money_Money_appUITests.swift */,
+				A592E47F2B5A79280022F75C /* Money_Money_appUITestsLaunchTests.swift */,
+			);
+			path = "Money Money appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A592E4582B5A79260022F75C /* Money Money app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A592E4832B5A79280022F75C /* Build configuration list for PBXNativeTarget "Money Money app" */;
+			buildPhases = (
+				A592E4552B5A79260022F75C /* Sources */,
+				A592E4562B5A79260022F75C /* Frameworks */,
+				A592E4572B5A79260022F75C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Money Money app";
+			productName = "Money Money app";
+			productReference = A592E4592B5A79260022F75C /* Money Money app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A592E46E2B5A79280022F75C /* Money Money appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A592E4862B5A79280022F75C /* Build configuration list for PBXNativeTarget "Money Money appTests" */;
+			buildPhases = (
+				A592E46B2B5A79280022F75C /* Sources */,
+				A592E46C2B5A79280022F75C /* Frameworks */,
+				A592E46D2B5A79280022F75C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A592E4712B5A79280022F75C /* PBXTargetDependency */,
+			);
+			name = "Money Money appTests";
+			productName = "Money Money appTests";
+			productReference = A592E46F2B5A79280022F75C /* Money Money appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A592E4782B5A79280022F75C /* Money Money appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A592E4892B5A79280022F75C /* Build configuration list for PBXNativeTarget "Money Money appUITests" */;
+			buildPhases = (
+				A592E4752B5A79280022F75C /* Sources */,
+				A592E4762B5A79280022F75C /* Frameworks */,
+				A592E4772B5A79280022F75C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A592E47B2B5A79280022F75C /* PBXTargetDependency */,
+			);
+			name = "Money Money appUITests";
+			productName = "Money Money appUITests";
+			productReference = A592E4792B5A79280022F75C /* Money Money appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A592E4512B5A79260022F75C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A592E4582B5A79260022F75C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A592E46E2B5A79280022F75C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A592E4582B5A79260022F75C;
+					};
+					A592E4782B5A79280022F75C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A592E4582B5A79260022F75C;
+					};
+				};
+			};
+			buildConfigurationList = A592E4542B5A79260022F75C /* Build configuration list for PBXProject "Money Money app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A592E4502B5A79260022F75C;
+			productRefGroup = A592E45A2B5A79260022F75C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A592E4582B5A79260022F75C /* Money Money app */,
+				A592E46E2B5A79280022F75C /* Money Money appTests */,
+				A592E4782B5A79280022F75C /* Money Money appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A592E4572B5A79260022F75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A592E4692B5A79280022F75C /* LaunchScreen.storyboard in Resources */,
+				A592E4662B5A79280022F75C /* Assets.xcassets in Resources */,
+				A592E4642B5A79260022F75C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A592E46D2B5A79280022F75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A592E4772B5A79280022F75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A592E4552B5A79260022F75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A592E4612B5A79260022F75C /* ViewController.swift in Sources */,
+				A592E45D2B5A79260022F75C /* AppDelegate.swift in Sources */,
+				A592E45F2B5A79260022F75C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A592E46B2B5A79280022F75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A592E4742B5A79280022F75C /* Money_Money_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A592E4752B5A79280022F75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A592E4802B5A79280022F75C /* Money_Money_appUITestsLaunchTests.swift in Sources */,
+				A592E47E2B5A79280022F75C /* Money_Money_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A592E4712B5A79280022F75C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A592E4582B5A79260022F75C /* Money Money app */;
+			targetProxy = A592E4702B5A79280022F75C /* PBXContainerItemProxy */;
+		};
+		A592E47B2B5A79280022F75C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A592E4582B5A79260022F75C /* Money Money app */;
+			targetProxy = A592E47A2B5A79280022F75C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A592E4622B5A79260022F75C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A592E4632B5A79260022F75C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A592E4672B5A79280022F75C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A592E4682B5A79280022F75C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A592E4812B5A79280022F75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A592E4822B5A79280022F75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A592E4842B5A79280022F75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN86J53QW3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Money Money app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "timmy.Liu.Money-Money-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A592E4852B5A79280022F75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN86J53QW3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Money Money app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "timmy.Liu.Money-Money-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A592E4872B5A79280022F75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN86J53QW3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "timmy.Liu.Money-Money-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Money Money app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Money Money app";
+			};
+			name = Debug;
+		};
+		A592E4882B5A79280022F75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN86J53QW3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "timmy.Liu.Money-Money-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Money Money app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Money Money app";
+			};
+			name = Release;
+		};
+		A592E48A2B5A79280022F75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN86J53QW3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "timmy.Liu.Money-Money-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Money Money app";
+			};
+			name = Debug;
+		};
+		A592E48B2B5A79280022F75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN86J53QW3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "timmy.Liu.Money-Money-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Money Money app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A592E4542B5A79260022F75C /* Build configuration list for PBXProject "Money Money app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A592E4812B5A79280022F75C /* Debug */,
+				A592E4822B5A79280022F75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A592E4832B5A79280022F75C /* Build configuration list for PBXNativeTarget "Money Money app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A592E4842B5A79280022F75C /* Debug */,
+				A592E4852B5A79280022F75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A592E4862B5A79280022F75C /* Build configuration list for PBXNativeTarget "Money Money appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A592E4872B5A79280022F75C /* Debug */,
+				A592E4882B5A79280022F75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A592E4892B5A79280022F75C /* Build configuration list for PBXNativeTarget "Money Money appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A592E48A2B5A79280022F75C /* Debug */,
+				A592E48B2B5A79280022F75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A592E4512B5A79260022F75C /* Project object */;
+}
