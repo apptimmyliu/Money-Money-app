@@ -13,9 +13,7 @@
 		A592E4642B5A79260022F75C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A592E4622B5A79260022F75C /* Main.storyboard */; };
 		A592E4662B5A79280022F75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A592E4652B5A79280022F75C /* Assets.xcassets */; };
 		A592E4692B5A79280022F75C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A592E4672B5A79280022F75C /* LaunchScreen.storyboard */; };
-		A592E4742B5A79280022F75C /* Money_Money_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A592E4732B5A79280022F75C /* Money_Money_appTests.swift */; };
-		A592E47E2B5A79280022F75C /* Money_Money_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A592E47D2B5A79280022F75C /* Money_Money_appUITests.swift */; };
-		A592E4802B5A79280022F75C /* Money_Money_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A592E47F2B5A79280022F75C /* Money_Money_appUITestsLaunchTests.swift */; };
+		A592E4952B610E5A0022F75C /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A592E4942B610E590022F75C /* sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +43,8 @@
 		A592E4682B5A79280022F75C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A592E46A2B5A79280022F75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A592E46F2B5A79280022F75C /* Money Money appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Money Money appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A592E4732B5A79280022F75C /* Money_Money_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money_Money_appTests.swift; sourceTree = "<group>"; };
 		A592E4792B5A79280022F75C /* Money Money appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Money Money appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A592E47D2B5A79280022F75C /* Money_Money_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money_Money_appUITests.swift; sourceTree = "<group>"; };
-		A592E47F2B5A79280022F75C /* Money_Money_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money_Money_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A592E4942B610E590022F75C /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				A592E45B2B5A79260022F75C /* Money Money app */,
-				A592E4722B5A79280022F75C /* Money Money appTests */,
-				A592E47C2B5A79280022F75C /* Money Money appUITests */,
 				A592E45A2B5A79260022F75C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,29 +96,13 @@
 				A592E45C2B5A79260022F75C /* AppDelegate.swift */,
 				A592E45E2B5A79260022F75C /* SceneDelegate.swift */,
 				A592E4602B5A79260022F75C /* ViewController.swift */,
+				A592E4942B610E590022F75C /* sound.mp3 */,
 				A592E4622B5A79260022F75C /* Main.storyboard */,
 				A592E4652B5A79280022F75C /* Assets.xcassets */,
 				A592E4672B5A79280022F75C /* LaunchScreen.storyboard */,
 				A592E46A2B5A79280022F75C /* Info.plist */,
 			);
 			path = "Money Money app";
-			sourceTree = "<group>";
-		};
-		A592E4722B5A79280022F75C /* Money Money appTests */ = {
-			isa = PBXGroup;
-			children = (
-				A592E4732B5A79280022F75C /* Money_Money_appTests.swift */,
-			);
-			path = "Money Money appTests";
-			sourceTree = "<group>";
-		};
-		A592E47C2B5A79280022F75C /* Money Money appUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A592E47D2B5A79280022F75C /* Money_Money_appUITests.swift */,
-				A592E47F2B5A79280022F75C /* Money_Money_appUITestsLaunchTests.swift */,
-			);
-			path = "Money Money appUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +212,7 @@
 				A592E4692B5A79280022F75C /* LaunchScreen.storyboard in Resources */,
 				A592E4662B5A79280022F75C /* Assets.xcassets in Resources */,
 				A592E4642B5A79260022F75C /* Main.storyboard in Resources */,
+				A592E4952B610E5A0022F75C /* sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A592E4742B5A79280022F75C /* Money_Money_appTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A592E4802B5A79280022F75C /* Money_Money_appUITestsLaunchTests.swift in Sources */,
-				A592E47E2B5A79280022F75C /* Money_Money_appUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
